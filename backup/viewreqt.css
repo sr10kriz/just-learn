@@ -1,0 +1,272 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*body{
+	background-image: url(img/book1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+.nav1{
+	padding: 10px;
+	background-color: #c8d8e4;
+}
+#hidden{
+	color: #c8d8e4;
+}
+.nav2{
+	display: flex;
+	padding: 20px;
+	background-color: beige;
+	justify-content: space-around;
+}
+.nav2 a{
+	padding: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #00bcd5;
+}
+#name1{
+	color: #2b6777;
+	font-family: sans-serif;
+}
+#home,#logout,#help{
+	color: black;
+}
+#logout:hover{
+	color: red;
+}
+.nav3{
+	padding: 10px;
+	display: flex;
+	font-size: 20px;
+	justify-content: space-around;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+.nav3 a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: grey;
+}
+.nav3 a:hover{
+	color: black;
+}
+#find{
+	border-radius: 20px;
+	border: 1px solid grey;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	/*border-right-color: white;*/
+	margin-right: 1px;
+	padding: 10px;
+	text-transform: capitalize;
+}
+#search{
+	border-radius: 20px;
+	border: 1px solid grey;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	/*border-left-color: white;*/
+	margin-left: 1px;
+	padding: 10px;
+	text-transform: capitalize;
+}
+.footer{
+	position: absolute;
+	top: 270%;
+	width: 100%;
+	background-color: #2b6777;
+	height: 30vh;
+}
+.left{
+	float: left;
+	width: 25%;
+}
+.right{
+	float: right;
+	width: 75%;
+}
+.nav4{
+	display: flex;
+	justify-content: space-around;
+}
+.nav4 a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.block{
+	display: block;
+}
+/*requireform*/
+.requireform{
+	width: 40%;
+	background-color: white;
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 20px;
+	box-sizing: border-box;
+	display: none;
+	z-index: 1;
+}
+.requireform input,select{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	text-transform: capitalize;
+	border: 1px solid grey;
+}
+#regbtn{
+	border: 1px solid white;
+	margin-bottom: 0px;
+}
+#close1{
+	float: right;
+	cursor: pointer;
+}
+#close1:hover{
+	color: red;
+}
+#name2{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+/*uploadform*/
+.uploadform{
+	width: 40%;
+	background-color: white;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 20px;
+	box-sizing: border-box;
+	display: none;
+	z-index: 1;
+}
+.uploadform input,select{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	text-transform: capitalize;
+	border: 1px solid grey;
+}
+/*#bookimage{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 20px;
+}*/
+#file{
+	border: none;
+}
+#imgPreview{
+	max-height: 100px;
+	max-width: 100px;
+	min-height: 100px;
+	min-width: 100px;
+}
+#uplbtn{
+	border: 1px solid white;
+	margin-bottom: 0px;
+}
+#close2{
+	float: right;
+	cursor: pointer;
+}
+#close2:hover{
+	color: red;
+}
+#name3{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+.verticalcont{
+	padding: 10px 0px;
+	height: 92vh;
+	width: 99%;
+	margin: auto;
+	/*border: 1px solid black;*/
+}
+.border{
+	padding: 10px 10px 10px 10px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: auto;
+	border: 1px solid grey;
+	border-radius: 10px;
+	height: 40vh;
+	margin-bottom: 10px;
+}
+.leftcont{
+	/*padding: 10px 10px 10px 10px;*/
+	height: 36vh;
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.rightcont{
+	/*padding: 10px 10px 10px 10px;*/
+	height: 36vh;
+	width: 50%;
+	box-sizing: border-box;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.innerleft{
+	padding: 15px;
+	box-sizing: border-box;
+	width: 48%;
+	float: left;
+	color: grey;
+	/*border: 1px solid darkblue;*/
+	text-align: center;
+	text-transform: capitalize;
+}
+.innerright{
+	padding: 15px;
+	box-sizing: border-box;
+	width: 48%;
+	color: #2b6777;
+	font-weight: bolder;
+	float: left;
+	/*border: 1px solid darkblue;*/	
+	text-align: center;
+	text-transform: capitalize;
+}
+#h1,#h2{
+	text-align: center;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+#h3{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 25px;
+	color: darkcyan;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+#smallmail{
+	text-transform: lowercase;
+}
